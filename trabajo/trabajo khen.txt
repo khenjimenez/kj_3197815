@@ -49,34 +49,6 @@ ANALISIS Y DESARROLLO DE SOFTWARE
 
 BOGOTA D.C
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 1. ¿Qué es un repositorio y menciona 2 ejemplos de los mismos (proveedores online)?
 Un repositorio es un espacio donde se almacena y organiza el código fuente de un proyecto, junto con su historial de cambios. Permite trabajar en equipo, hacer seguimiento a las versiones y colaborar de manera eficiente.
 
@@ -85,6 +57,8 @@ Ejemplos de proveedores online de repositorios:
 GitHub (https://github.com)
 
 GitLab (https://gitlab.com)
+
+
 
 2. ¿Cuáles son los principales componentes de un versionamiento en la herramienta GIT?
 Los principales componentes del versionamiento en Git son:
@@ -99,6 +73,8 @@ Repositorio: Espacio donde se guarda todo el proyecto y su historial.
 
 Stage (o index): Zona temporal donde se preparan los archivos antes de confirmar un commit.
 
+
+
 3. Mencione con sus propias palabras las ventajas que tiene GIT frente a otros proveedores de repositorios
 Velocidad y eficiencia: Git trabaja de forma local, lo que lo hace más rápido que otras herramientas.
 
@@ -109,6 +85,11 @@ Trabajo en equipo: Permite que varios desarrolladores trabajen al mismo tiempo s
 Control total: Puedes trabajar sin conexión, y luego sincronizar tus cambios cuando estés en línea.
 
 Ramas fáciles de usar: Las ramas en Git son ligeras y permiten experimentar sin afectar el proyecto principal.
+
+
+
+
+
 
 4. Mencione por lo menos 5 ejemplos de los comandos básicos que se usan en GIT
 git init – Crea un nuevo repositorio.
@@ -123,8 +104,14 @@ git push – Sube los cambios al repositorio remoto (en línea).
 
 git pull – Descarga los últimos cambios del repositorio remoto.
 
+
+
+
 5. ¿Qué son y cuáles son las funciones de los branch?
 Los branch o ramas son líneas de desarrollo independientes que permiten trabajar en nuevas funciones o correcciones sin afectar el código principal. Su función es facilitar el trabajo en equipo, realizar pruebas y combinar cambios cuando ya están listos.
+
+
+
 
 6. ¿Cuál es el nombre del branch principal?
 El nombre del branch principal en Git, por defecto, solía ser master, pero actualmente el nombre más común y recomendado es main.
