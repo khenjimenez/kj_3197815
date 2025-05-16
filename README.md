@@ -6,5 +6,5 @@ Mi proyecto es crear un sistema de informaciòn para una gestion de ventas onlin
 tarjetas y PSE
 
 para poder ingresar a la pagina tendran que iniciar mediante un login.
-Supongamos que alguien hace una compra de una chaqueta, la ìdea es que al instante que la persona haga la compra queden sus datos y la chaqueta se baje automaticamente del inventario
+Supongamos que alguien hace una compra de una chaqueta, la ìdea es que al instante que la persona haga la compra queden sus datos y la chaqueta se baje automaticamente del inventario.
 
