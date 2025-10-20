@@ -40,10 +40,12 @@
 </head>
 <body>
 
-  <!-- Navbar -->
+ 
   <nav class="navbar bg-dark navbar-dark fixed-top">
     <div class="container-fluid d-flex align-items-center justify-content-between">
       <a class="navbar-brand" href="#">🚗 Cueromanía Motors</a>
+      <a class="btn btn-outline-light btn-sm mt-3" href="login.html">Iniciar Sesión</a>
+
       <ul class="navbar-nav flex-row">
         <li class="nav-item"><a class="nav-link text-light mx-2" href="index.php">Inicio</a></li>
         <li class="nav-item"><a class="nav-link text-light mx-2" href="catalogo.php">Catálogo</a></li>
@@ -55,7 +57,7 @@
     </div>
   </nav>
 
-  <!-- Video principal -->
+ 
   <div id="video-container">
     <video id="video-bg" autoplay muted loop playsinline preload="auto">
       <source src="formula1.mp4" type="video/mp4">

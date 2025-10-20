@@ -1,5 +1,5 @@
 <?php
-// catalogo.php - lista productos desde BD
+
 require_once "conexion.php";
 ?>
 <!DOCTYPE html>
@@ -23,12 +23,15 @@ require_once "conexion.php";
   </style>
 </head>
 <body>
+    
   <video id="video-bg" autoplay muted loop>
     <source src="formula1.mp4" type="video/mp4">
   </video>
 
   <main class="overlay catalog-wrap">
     <div class="container cards-container">
+        <a href="index.php" class="btn btn-outline-light mb-3">← Volver al Inicio</a>
+
 
       <div class="d-flex justify-content-between align-items-center mb-4">
         <h3 class="m-0">Catálogo Ferrari 2025</h3>
@@ -37,7 +40,7 @@ require_once "conexion.php";
 
       <div class="row g-4">
         <?php
-        // Obtener productos con su tipo
+        
         $sql = "SELECT p.id_producto, p.nombre, p.precio, p.descripcion, p.imagen, t.nombre_tipo
                 FROM producto p
                 LEFT JOIN tipo_producto t ON p.id_tipo = t.id_tipo
