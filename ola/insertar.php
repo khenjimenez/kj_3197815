@@ -30,7 +30,7 @@ if (!empty($_FILES['imagen']) && $_FILES['imagen']['error'] === UPLOAD_ERR_OK) {
     if (!in_array($file['type'], $allowed)) {
         die("Tipo de imagen no permitido.");
     }
-   
+
     $ext = pathinfo($file['name'], PATHINFO_EXTENSION);
     $uploadedName = time() . '_' . bin2hex(random_bytes(5)) . '.' . $ext;
     $dest = __DIR__ . '/uploads/' . $uploadedName;
