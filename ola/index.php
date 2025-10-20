@@ -71,7 +71,7 @@
     </header>
   </div>
 
-  <!-- Carrusel y demás (lo dejé igual) -->
+
   <section class="carousel-container content-section">
     <div class="container text-center">
       <h2 class="text-center mb-4 fw-bold text-red">Galería Ferrari</h2>
@@ -104,7 +104,6 @@
     </div>
   </section>
 
-  <!-- Sobre Nosotros -->
   <section class="about-section text-center">
     <video autoplay muted loop playsinline preload="auto">
       <source src="ferrari.mp4" type="video/mp4">
